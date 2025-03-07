@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+  }
+  
+.logo-container {
+    flex: 1;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .home-hero {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 2em;
+  }
+  
+  .home-featured {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+
+  .injury-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+  }
+  
+  .injury-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .injury-card h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .injury-card p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .injury-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .injury-detail h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .injury-detail p {
+    color: #666;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .injury-detail ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .injury-detail ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
